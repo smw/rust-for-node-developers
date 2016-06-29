@@ -11,7 +11,7 @@ console.log('Hello world!');
 And now run this file with Node:
 
 ```bash
-$ node hello-word.js
+$ node hello-world.js
 Hello world!
 ```
 
@@ -30,7 +30,7 @@ Rust actually needs a special entry point to execute code. This is our `main` fu
 Now compile our code with the following command:
 
 ```bash
-$ rustc hello-word.rs
+$ rustc hello-world.rs
 ```
 
 You'll see... nothing on your console. Instead a new file called `hello-world` was created next to `hello-world.rs`. This is our compiled code. You can run it like this:
